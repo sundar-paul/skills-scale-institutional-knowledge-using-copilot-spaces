@@ -265,6 +265,244 @@ DevOps/Infrastructure Engineers manage deployment pipelines, infrastructure, pro
 
 ---
 
+## Release Manager/Release Engineer
+
+### Role Summary
+Release Managers/Release Engineers own the end-to-end release process, from planning and sequencing through deployment and post-release verification. They coordinate across teams to ensure safe, timely, and well-communicated releases.
+
+### Responsibilities
+- Plan release schedule, coordinate dependencies, and manage release sequencing
+- Maintain release documentation and release notes
+- Coordinate pre-release testing and approval gates
+- Execute or oversee deployment to staging and production environments
+- Coordinate post-deployment verification and rollback procedures if needed
+- Communicate release status to stakeholders and support teams
+- Manage version numbering and release artifacts
+- Identify and mitigate release-related risks
+
+### Goals
+- Enable fast, safe, and predictable releases
+- Minimize release-related downtime and incidents
+- Ensure stakeholders and support teams are prepared for releases
+- Reduce manual, error-prone release activities
+
+### Typical Communication
+- Release planning meetings with Product and Project leads
+- Pre-release coordination with QA, DevOps, and support teams
+- Release announcement to stakeholders and customers
+- Post-release retrospectives
+
+### Interactions with Existing Roles
+- **With DevOps/Infrastructure**: Coordinate deployment timing, rollback procedures, and monitoring setup
+- **With Project Managers**: Align on release timeline and dependencies; escalate release risks
+- **With QA/Testing**: Ensure release testing is complete and approval gates are met
+- **With Product Managers**: Communicate release contents and user-facing impacts
+- **With Customer Success/Support**: Prepare support teams with release notes and known issues
+
+---
+
+## UX/Design Lead
+
+### Role Summary
+UX/Design Leads ensure that delivered features are user-centered, accessible, and meet usability standards. They collaborate with Product Managers on design vision and with Developers on implementation.
+
+### Responsibilities
+- Define user experience strategy and design principles
+- Conduct user research and usability testing
+- Create wireframes, prototypes, and design specifications
+- Review designs for accessibility (WCAG compliance, etc.)
+- Collaborate with developers on feasibility and implementation
+- Validate that delivered features match design intent
+- Document design decisions and rationale
+
+### Goals
+- Deliver intuitive, accessible, and delightful user experiences
+- Reduce rework by validating designs early
+- Build user confidence and satisfaction
+
+### Typical Communication
+- Design reviews with developers and product managers
+- User research findings and feedback
+- Design system and component library maintenance
+- Acceptance testing of UX elements
+
+### Interactions with Existing Roles
+- **With Product Managers**: Align on user needs and feature vision; validate design approach
+- **With Developers**: Review implementation against design specs; provide design feedback during development
+- **With QA/Testing**: Define acceptance criteria for UX and conduct usability testing
+- **With Customer Success/Support**: Gather user feedback to inform design improvements
+
+---
+
+## Business Analyst
+
+### Role Summary
+Business Analysts gather, clarify, and document business requirements. They bridge business stakeholders and technical teams, ensuring alignment on problem statements, scope, and success criteria.
+
+### Responsibilities
+- Conduct interviews and workshops with business stakeholders
+- Document business requirements and process flows
+- Create requirement specifications and acceptance criteria
+- Clarify ambiguous requirements and identify edge cases
+- Validate that solutions address original business problems
+- Support traceability of requirements through implementation
+
+### Goals
+- Ensure solutions address actual business needs, not assumed needs
+- Reduce rework caused by misunderstood requirements
+- Improve communication between business and technical teams
+
+### Typical Communication
+- Requirements gathering meetings with stakeholders
+- Requirement documentation and specifications
+- Clarification and scope negotiation during planning
+- Validation and sign-off of deliverables
+
+### Interactions with Existing Roles
+- **With Product Managers**: Collaborate on problem statement and requirements; ensure alignment
+- **With Project Managers**: Support scope documentation and change management
+- **With Developers**: Clarify requirements and answer implementation questions
+- **With Stakeholders**: Gather business context and validate solutions
+
+---
+
+## Systems Administrator
+
+### Role Summary
+Systems Administrators manage infrastructure access, user provisioning, system configurations, and operational support. They ensure systems are secure, available, and properly configured for project needs.
+
+### Responsibilities
+- Manage user accounts, access controls, and permissions
+- Configure and maintain system environments (dev, staging, production)
+- Provide infrastructure documentation and runbooks
+- Support incident response and system troubleshooting
+- Coordinate backup and disaster recovery procedures
+- Ensure compliance with security and operational policies
+- Manage system updates and patches
+
+### Goals
+- Maintain system availability and performance
+- Ensure secure access and compliance
+- Reduce operational friction and support tickets
+- Enable fast and reliable infrastructure for project teams
+
+### Typical Communication
+- Infrastructure and access request processing
+- Operational runbooks and documentation
+- Incident escalation and support coordination
+- Security and compliance audits
+
+### Interactions with Existing Roles
+- **With DevOps/Infrastructure**: Collaborate on infrastructure setup and maintenance; coordinate system changes
+- **With Security/Compliance**: Ensure access controls align with security policies
+- **With Project Managers**: Support onboarding and infrastructure provisioning; escalate access-related blockers
+- **With Developers**: Provide infrastructure documentation; support development environment setup
+
+---
+
+## Data Analyst
+
+### Role Summary
+Data Analysts track project metrics, analyze project health, and provide insights for data-driven decisions. They ensure teams have visibility into progress, quality, and business impact.
+
+### Responsibilities
+- Design and implement project dashboards and metrics tracking
+- Collect and analyze project health metrics (velocity, burndown, quality)
+- Analyze success metrics defined in the Project One-pager
+- Provide reporting for stakeholders and sponsors
+- Identify trends and risks through data analysis
+- Support root cause analysis for issues and incidents
+- Maintain data integrity and documentation
+
+### Goals
+- Provide data-driven visibility into project health
+- Enable informed decision-making through analytics
+- Identify risks and opportunities early
+- Support continuous improvement with metrics
+
+### Typical Communication
+- Dashboard reviews and metric discussions
+- Weekly status reports with key metrics
+- Analysis and trend identification
+- Post-release impact assessments
+
+### Interactions with Existing Roles
+- **With Project Managers**: Provide project health dashboards; identify timeline and quality risks
+- **With Product Managers**: Track success metrics and business impact; validate product outcomes
+- **With Scrum Master/Delivery Facilitator**: Monitor team velocity and capacity; support retrospective data
+- **With QA/Testing**: Analyze quality metrics and defect trends
+
+---
+
+## Legal/Compliance Specialist
+
+### Role Summary
+Legal/Compliance Specialists address regulatory and contractual requirements for projects. They ensure projects comply with legal obligations and organizational policies.
+
+### Responsibilities
+- Review contracts and regulatory requirements for projects
+- Advise on legal and compliance implications of project scope
+- Conduct compliance assessments and audits
+- Manage intellectual property and licensing concerns
+- Coordinate with external legal counsel when needed
+- Document compliance decisions and approvals
+- Provide training and guidance on compliance requirements
+
+### Goals
+- Minimize legal and compliance risks
+- Ensure projects meet regulatory obligations
+- Protect organizational interests and reputation
+- Enable compliant, risk-managed project execution
+
+### Typical Communication
+- Legal review meetings and consultations
+- Compliance requirement documentation
+- Risk assessments and compliance audits
+- Policy and procedure updates
+
+### Interactions with Existing Roles
+- **With Stakeholders/Sponsors**: Advise on legal and compliance implications; escalate regulatory risks
+- **With Product Managers**: Review product features for legal/compliance concerns
+- **With Security/Compliance Officer**: Collaborate on compliance requirements and audits
+- **With Project Managers**: Identify legal/compliance risks and timeline impacts
+
+---
+
+## Customer Success/Support Lead
+
+### Role Summary
+Customer Success/Support Leads represent customer needs, coordinate support readiness, and provide user feedback to the team. They bridge the gap between customer experience and product delivery.
+
+### Responsibilities
+- Gather customer feedback and pain points
+- Coordinate support team readiness for new features
+- Create support documentation and knowledge bases
+- Identify usability issues and customer concerns
+- Advocate for customer needs during planning and execution
+- Support release preparation and customer communication
+- Track customer satisfaction and support metrics
+
+### Goals
+- Ensure customer success with delivered features
+- Reduce support volume through better documentation and design
+- Provide customer-driven insights for improvements
+- Build customer confidence and satisfaction
+
+### Typical Communication
+- Customer feedback sessions and interviews
+- Support readiness reviews and planning
+- Customer communication and release announcements
+- Support metrics and customer satisfaction reporting
+
+### Interactions with Existing Roles
+- **With Product Managers**: Provide customer feedback and insights; advocate for customer-focused prioritization
+- **With UX/Design Leads**: Share customer usability feedback; support design validation
+- **With QA/Testing**: Coordinate acceptance criteria from customer perspective
+- **With Release Manager/Release Engineer**: Prepare customer communications and support materials
+- **With Project Managers**: Communicate customer impact and timeline concerns
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
